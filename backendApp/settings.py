@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-f15gv566h9cr-7##@i*z-op1jk8t%^o1v4(4k6av7qe3*04@s@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['gestorproyectos-back.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['gestorproyectos-back.onrender.com','gestorproyectos-back-f37539863e8a.herokuapp.com', 'localhost', '127.0.0.1']
 
 # Application definition
 
@@ -93,7 +93,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://gestorproyectos-front.vercel.app",
     "https://www.jimenezpadilla.fun",
-    "https://myapp.onrender.com",
+    
 ]
 
 WSGI_APPLICATION = 'backendApp.wsgi.application'
